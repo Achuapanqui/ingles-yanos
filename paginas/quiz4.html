@@ -1,0 +1,197 @@
+<html>
+  <meta charset="utf-8">
+  <head>
+    <title>Quiz 4</title>
+    <link rel="stylesheet" href="../dist/reveal.css">
+    <link rel="stylesheet" href="../dist/theme/white.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/funciones.js"></script>
+
+    <audio id="sonido1">
+      <source src=../audios/circle.mp3></source>
+    </audio> 
+    <audio id="sonido2">
+    <source src=../audios/rectangle.mp3></source>
+    </audio> 
+    <audio id="sonido3">
+      <source src=../audios/square.mp3></source>
+    </audio>
+    <audio id="sonido4">
+      <source src=../audios/star.mp3></source>
+    </audio> 
+    <audio id="sonido5">
+      <source src=../audios/heart.mp3></source>
+    </audio> 
+    <audio id="sonido6">
+      <source src=../audios/triangle.mp3></source>
+    </audio> 
+    <audio id="sonido7">
+      <source src=../audios/oval.mp3></source>
+    </audio> 
+  </head>
+<style>ul li {
+
+  list-style-type: none;
+
+}</style>
+
+  <body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+      <!-- Links -->
+      <ul class="navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="../index.html">Introducción</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="quiz1.html">Quiz 1</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="quiz2.html">Quiz 2</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="quiz3.html">Quiz 3</a>
+          </li>
+          <li class="nav-item">
+               <a class="nav-link" href="quiz4.html">Quiz 4</a>
+          </li>
+          <li class="nav-item">
+               <a class="nav-link" href="quiz5.html">Quiz 5</a>
+          </li>
+      </ul> 
+  </nav>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-background-color="#0400F7"><h2>Quiz 4: Figuras</h2></section>
+        <section data-background-color="#0400F7">
+          <h2>Escucha la pronunciacion de cada figura y cada palabra y seleccione la correcta</h2>
+        </section>
+        <section data-background-color="#0400F7">
+         <img style="margin-left:2.5%" class="img-fluid mx-auto d-block p-3 rounded float-left" onclick="sonido1.play()" width=400 height=300 src="../imagenes/Figuras/circle.png" alt="Circulo">
+         
+         <br>
+         <br>
+         <ul>
+           <form name="fig1">
+         <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido4.play()" name="figuras1" value="A"> STAR</li>
+         <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido3.play()" name="figuras1" value="B"> SQUARE</li>
+         <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido1.play()" name="figuras1" value="C"> CIRCLE</li>
+         <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido2.play()" name="figuras1" value="D"> RECTANGLE</li>
+        </form>
+        </ul>
+      </section>
+
+      <section data-background-color="#0400F7">
+        <img style="margin-left:2.5%" class="img-fluid mx-auto d-block p-3 rounded float-left" onclick="sonido2.play()" width=400 height=300 src="../imagenes/Figuras/rectangle.png" alt="Rectangulo">
+        <br>
+        <ul>
+          <form name="fig2">
+        <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido7.play()" name="figuras2" value="A"> OVAL</li>
+        <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido2.play()" name="figuras2" value="B"> RECTANGLE</li>
+        <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido3.play()" name="figuras2" value="C"> SQUARE</li>
+        <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido5.play()" name="figuras2" value="D"> HEART</li>
+       </form>
+       </ul>
+     </section>
+
+     <section data-background-color="#0400F7">
+      <img style="margin-left:2.5%" class="img-fluid mx-auto d-block p-3 rounded float-left" onclick="sonido3.play()" width=400 height=300 src="../imagenes/Figuras/square.png" alt="Cuadrado">
+      
+      <br>
+      <br>
+      <ul>
+        <form name="fig3">
+      <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido1.play()" name="figuras3" value="A"> CIRCLE</li>
+      <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido3.play()" name="figuras3" value="B"> SQUARE</li>
+      <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido4.play()" name="figuras3" value="C"> STAR</li>
+      <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido6.play()" name="figuras3" value="D"> TRIANGLE</li>
+     </form>
+     </ul>
+   </section>
+
+   <section data-background-color="#0400F7">
+    <img style="margin-left:2.5%" class="img-fluid mx-auto d-block p-3 rounded float-left" onclick="sonido4.play()" width=400 height=300 src="../imagenes/Figuras/star.png" alt="Estrella">
+    
+    <br>
+    <br>
+    <ul>
+      <form name="fig4">
+    <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido4.play()" name="figuras4" value="A"> STAR</li>
+    <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido5.play()" name="figuras4" value="B"> HEART</li>
+    <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido7.play()" name="figuras4" value="C"> OVAL</li>
+    <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido2.play()" name="figuras4" value="D"> RECTANGLE</li>
+   </form>
+   </ul>
+ </section>
+
+ <section data-background-color="#0400F7">
+  <img style="margin-left:2.5%" class="img-fluid mx-auto d-block p-3 rounded float-left" onclick="sonido5.play()" width=400 height=300 src="../imagenes/Figuras/heart.png" alt="Corazon">
+  
+  <br>
+  <br>
+  <ul>
+    <form name="fig5">
+  <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido3.play()" name="figuras5" value="A"> SQUARE</li>
+  <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido7.play()" name="figuras5" value="B"> OVAL</li>
+  <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido1.play()" name="figuras5" value="C"> CIRCLE</li>
+  <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido5.play()" name="figuras5" value="D"> HEART</li>
+ </form>
+ </ul>
+</section>
+
+<section data-background-color="#0400F7">
+  <img style="margin-left:2.5%" class="img-fluid mx-auto d-block p-3 rounded float-left" onclick="sonido6.play()" width=400 height=300 src="../imagenes/Figuras/triangle.png" alt="Triangulo">
+  
+  <br>
+  <br>
+  <ul>
+    <form name="fig6">
+  <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido3.play()" name="figuras6" value="A"> SQUARE</li>
+  <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido2.play()" name="figuras6" value="B"> RECTANGLE</li>
+  <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido6.play()" name="figuras6" value="C"> TRIANGLE</li>
+  <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido4.play()" name="figuras6" value="D"> STAR</li>
+ </form>
+ </ul>
+</section>
+
+<section data-background-color="#0400F7">
+  <img style="margin-left:2.5%" class="img-fluid mx-auto d-block p-3 rounded float-left" onclick="sonido7.play()" width=400 height=300 src="../imagenes/Figuras/oval.png" alt="Ovalo">
+  <br>
+  <ul>
+    <form name="fig7">
+  <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido6.play()" name="figuras7" value="A"> TRIANGLE</li>
+  <li> <input type="radio"  style="width: 25px; height: 25px;" onclick="sonido5.play()" name="figuras7" value="B"> HEART</li>
+  <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido1.play()" name="figuras7" value="C"> CIRCLE</li>
+  <li> <input type="radio" style="width: 25px; height: 25px;"  onclick="sonido7.play()" name="figuras7" value="D"> OVAL</li>
+ </form>
+ </ul>
+</section>
+      
+<section data-state="stats">
+<u>Resultado</u>
+<p id="correctas" style="color:green"></p>
+<p id="incorrectas" style="color:red"></p>
+<p id="total" style="color:black"></p>
+</section>
+      </div>
+    </div>
+    <script src="../dist/reveal.js"></script>
+    <script>
+      Reveal.initialize(
+        {
+          controlsLayout: 'edges',
+          embedded: true
+        }
+      );
+      Reveal.addEventListener( 'stats', function() {
+    quiz4();
+} );
+    </script>
+  </body>
+</html>
